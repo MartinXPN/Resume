@@ -1,0 +1,156 @@
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* HEADER */
+.header {
+    background-color: #37a4dc;
+    overflow: hidden;
+    box-shadow: 0 0 6px 0 rgba(81, 81, 81, 0.98);
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 4px 4px 4px -4px rgba(0, 0, 0, 0.2);
+    float: left;
+    height: 8.5em;
+    width: 8.5em;
+    margin: 1em;
+}
+.profile-name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.public-info-box {
+    display: inline-block;
+    overflow: hidden;
+    padding: 1em;
+}
+
+
+.public-info-item {
+    overflow: hidden;
+    content: '';
+}
+.public-info-item-text {
+    color: white;
+    font-size: 0.55em;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-left: 10px;
+    display: inline-block;
+}
+.public-info-item-image {
+    height: 0.9em;
+    width: 0.9em;
+    vertical-align: middle;
+}
+
+
+/* BODY */
+.content-root {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.content-left-column {
+    display: table-cell;
+    width: 50%;
+    padding-left: 20px;
+}
+.content-right-column {
+    display: table-cell;
+    width: 50%;
+}
+
+
+.skill-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.section-title {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #37a4dc;
+    padding-bottom: 10px;
+}
+
+.enumeration-text {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #212121
+}
+.text-detail {
+    font-size: 10px;
+    font-weight: normal;
+    color: #212121
+}
+
+.horizontal-image {
+    display: inline-block;
+    height: 2.2em;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+
+.experience-topic-container {
+    overflow: hidden;
+}
+
+.experience-title-card {
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    display: table;
+    float: left;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #37a4dc;
+    color: white;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.experience-details-card {
+    height: auto;
+    width: 250px;
+    position: relative;
+    float: left;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 10px 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #212121;
+}
+
+.right-aligned-text {
+    position: absolute;
+    right: 8px;
+}
