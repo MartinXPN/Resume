@@ -158,3 +158,14 @@ span {
     position: absolute;
     right: 8px;
 }
+
+.bold-text {
+    font-weight: bold;
+}
+
+.url-text {
+    color: #212121;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
